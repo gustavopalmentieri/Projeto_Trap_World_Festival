@@ -1,0 +1,85 @@
+html{
+
+    background-color: rgb(43, 30, 30);
+}
+
+.topo{
+
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    gap: 5px;
+}
+
+
+h1{
+
+    text-align: center;
+    font-family: fantasy;
+    color:#8b7d7d
+    
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    color: #8b7d7d;
+}
+
+
+img{
+
+    width: 100px;
+    height: auto;
+    border: ;
+    border-radius: 70%;
+}
+
+#img2 img{
+
+    width: 700px;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 2px 2px 12px #fc6806;
+    align-items: center;
+}
+
+.container{
+
+    display: flex;
+    background-color: #333333;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.int{
+
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 10px;
+    background-color: #ff6600b0; /*mudar a cor*/
+    margin: 5px;
+    text-align: center;
+
+}
+
+.artistas img{
+
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
