@@ -14,7 +14,7 @@ html{
 .links a{
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 20px;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
@@ -57,9 +57,10 @@ img{
 .container{
 
     display: flex;
-    background-color: #333333;
+    background-color: #221212;
     padding: 10px;
     flex-wrap: wrap;
+    box-shadow: 2px 2px 12px #fc6806;
     
 }
 

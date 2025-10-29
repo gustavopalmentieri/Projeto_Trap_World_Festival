@@ -1,0 +1,47 @@
+html{
+
+    background-color: rgb(43, 30, 30);
+}
+
+#topo h1{
+
+    font-family: fantasy;
+    color: #8b7d7d;
+    text-align: center;
+}
+
+.artista-container{
+    
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    background-color: #fc6806;
+
+}
+
+.flutuante p{
+
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.flutuante {
+
+    background-color: #221212;
+    float: left; /*Esse que faz a função de "Flutuante". (LEFT - DIREITA E RIGHT - ESQUERDA)*/
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    
+}
+
+.flutuante img{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 5%;
+
+}
