@@ -1,24 +1,40 @@
 html{
 
-    background-color: rgb(43, 30, 30);
+    background-color: #111;
 }
 
-.topo{
+.topo {
 
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  box-shadow: auto;
 }
 
-.links a{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    gap: 5px;
+.topo img {
+
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.links {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family:"Poppins", sans-serif;
+
+}
+
+.links a:hover {
+  color: #fc6806;
 }
 
 
@@ -44,9 +60,20 @@ img{
     border-radius: 70%;
 }
 
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+#img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #img2 img{
 
-    width: 700px;
+    width: 100%;
     height: auto;
     border-radius: 5%;
     box-shadow: 2px 2px 12px #fc6806;
