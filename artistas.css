@@ -1,6 +1,6 @@
-html{
+body{
 
-    background-color: rgb(43, 30, 30);
+    background-color: #111;
 }
 
 .topo-links{
@@ -10,6 +10,8 @@ html{
   justify-content: space-between;
   padding: 10px 40px;
   box-shadow: auto;
+  background-color: #c17c1d;
+
 }
 
 .topo-links img {

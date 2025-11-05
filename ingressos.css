@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #111;
+  background-color: #c17c1d;
   padding: 10px 40px;
   box-shadow: 0 0 15px #fc6806;
 }
@@ -24,6 +24,7 @@ body {
   border-radius: 50%;
 }
 
+
 .links {
   display: inline-block;
   margin: 0 10px;
@@ -34,6 +35,11 @@ body {
   color: #fff;
   font-weight: bold;
   transition: 0.3s;
+}
+
+.ingressos a{
+
+  color: #fc6806;
 }
 
 .links a:hover {

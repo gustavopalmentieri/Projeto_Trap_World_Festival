@@ -10,6 +10,7 @@ body{
   justify-content: space-between;
   padding: 10px 40px;
   box-shadow: auto;
+  background-color: #c17c1d;
 }
 
 .topo img {
@@ -17,7 +18,16 @@ body{
   width: 100px;
   height: auto;
   border-radius: 50%;
+  
 }
+
+.topo img:hover{
+  
+  transform: scale(1.10);
+  box-shadow: 0 0 20px #000000;
+}
+
+
 
 .links {
 
@@ -33,6 +43,28 @@ body{
   font-family:"Poppins", sans-serif;
 
 }
+
+.home a{
+
+  color: #fc6806;
+
+}
+
+.sobre a{
+
+  color: #fc6806;
+}
+
+.headliners a{
+
+  color: #fc6806;
+}
+
+.parcerias a{
+
+  color: #fc6806;
+}
+
 
 .links a:hover {
   color: #fc6806;
@@ -55,6 +87,13 @@ h2{
     font-size: 30px;
 }
 
+h3{
+    text-align: center;
+    font-family: fantasy;
+    color: #8b7d7d;
+    font-size: 20px;
+}
+
 
 img{
 
@@ -62,6 +101,7 @@ img{
     height: auto;
     border-radius: 70%;
 }
+
 
 p{
     font-family: "Poppins", sans-serif;
@@ -77,8 +117,6 @@ p{
   margin: 5px;
   padding: 50px;
   text-align: center;
-
-
 
 }
 
@@ -119,6 +157,12 @@ p{
 
 }
 
+/* ====== RESPONSIVIDADE ====== */
+.artistas:hover {
+  transform: scale(1.10);
+  box-shadow: 0 0 20px #000000;
+}
+
 .artistas img{
 
     width: 300px;
@@ -130,3 +174,20 @@ p{
 
   overflow: hidden;
 }
+
+.rodape{
+
+  background-color: #221212;
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.rodape h3{
+
+  text-align: center;
+}
+
+
+
