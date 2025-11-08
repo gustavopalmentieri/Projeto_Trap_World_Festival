@@ -9,7 +9,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #c17c1d;
+  background-color: #504d4a;
   padding: 10px 40px;
 
 }
@@ -197,3 +197,14 @@ p{
 
   
 }
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b510077;
+  padding: 50px 40px;
+  text-align: center;
+
+}
+
