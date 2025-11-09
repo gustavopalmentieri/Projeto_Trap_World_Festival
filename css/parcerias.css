@@ -92,10 +92,18 @@ h1{
 }
 
 .rodape {
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #8b510077;
-  padding: 40px 40px;
+  padding: 50px 40px;
+
+}
+
+.rodape p{
+
+   font-family: "Poppins", sans-serif;
+   color: #fff;
 
 }

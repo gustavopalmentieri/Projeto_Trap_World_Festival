@@ -113,11 +113,6 @@ img{
 }
 
 
-p{
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-}
-
 .passados{
 
   display: flex;
@@ -172,6 +167,13 @@ p{
   box-shadow: 0 0 20px #000000;
 }
 
+.artistas p{
+  
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+
+}
+
 .artistas img{
 
     width: 300px;
@@ -199,12 +201,18 @@ p{
 }
 
 .rodape {
+  
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #8b510077;
   padding: 50px 40px;
-  text-align: center;
-
 }
 
+.rodape p{
+
+   font-family: "Poppins", sans-serif;
+   color: #fff;
+
+}

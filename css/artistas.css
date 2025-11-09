@@ -64,7 +64,7 @@ body{
     
     font-size: 15px;
     width: auto;
-    height: 250px;
+    height: 370px;
     background-color: #fc6806;
 
 }
@@ -81,7 +81,7 @@ body{
     background-color: #221212;
     float: left; /*Esse que faz a função de "Flutuante". (LEFT - DIREITA E RIGHT - ESQUERDA)*/
     width: auto;
-    height: auto;
+    height: 340px;
     margin: 5px;
     padding: 5px;
     color: white;
@@ -90,18 +90,36 @@ body{
 
 .flutuante img{
 
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
     border-radius: 5%;
 
 }
 
 .texto{
 
-    font-size: 18px;
+    font-size: 20px;
     font-family:  "Poppins", sans-serif;
+    font-weight: bold;
     text-align: center;
     color: white;
     margin: 5px;
     padding: 50px;
+}
+
+.rodape {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8b510077;
+  padding: 60px 40px;
+
+}
+
+.rodape p{
+
+   font-family: "Poppins", sans-serif;
+   color: #fff;
+
 }
